@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    // root directories
+    ".dart_tool": true,
+    ".idea": true,
+    "android": true,
+    "build": true,
+    "ios": true,
+    "linux": true,
+    "macos": true,
+    "web": true,
+    "windows": true,
+    // root files
+    ".firebaserc": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    ".metadata": true,
+    "analysis_options.yaml": true,
+    "app.iml": true,
+    "firebase.json": true,
+    "pubspec.lock": true,
+    // firebase functions
+    "functions/node_modules": true,
+    "functions/.gitignore": true,
+    "functions/package-lock.json": true
+  }
+}
